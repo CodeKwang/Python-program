@@ -10,12 +10,20 @@ Python小项目
 5、多线程功能实现
 ### server.py 服务器
 ```python
-
+# 服务器类，继承threading.Thread类
+class chatServer(threading.Thread):
 ```
 
 ### client.py 客户端
 ```python
+# 注册界面类
+class registerGUI(object):
 
+# 登录界面类
+class sign(object):
+
+# 聊天界面类
+class chatUI(object):
 ```
 
 ### FTP
