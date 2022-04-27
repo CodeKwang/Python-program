@@ -25,5 +25,26 @@ class sign(object):
 # 聊天界面类
 class chatUI(object):
 ```
+### userdb.db 用户数据库
+存储注册用户名和密码
 
-### FTP
+### SQL.py 登录验证和注册
+```python
+# 登录验证函数
+def is_user(username, password):
+
+# 用户名和密码写入数据库
+def add_user(username, password):
+```
+
+### FTPserver.py FTP文件服务器
+搭建FTP文件共享服务器
+
+### DU.py 文件上传下载
+```python
+# 文件下载函数
+def DownLoadFile(LocalFile, RemoteFile):
+
+# 文件上传函数
+def UpLoadFile(LocalFile, RemoteFile):
+```
